@@ -1,0 +1,1 @@
+[Credit to User Szulcmagda on the Chess Wiki](https://chess.fandom.com/wiki/Amazon?file=PhpplXprx+3-removebg-preview.png) for the Amazon chess piece icon
