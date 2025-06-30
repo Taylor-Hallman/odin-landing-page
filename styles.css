@@ -1,0 +1,30 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+li {
+    color: #E5E7EB;
+}
+
+h3 {
+    color: #F9FAF8
+}
+
+#header {
+    display: flex;
+    background-color: #1F2937;
+    padding-inline: 150px;
+    justify-content: space-between;
+}
