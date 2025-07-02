@@ -29,6 +29,16 @@ button {
     border-radius: 5px;
 }
 
+#segment1, #segment2, #segment3 {
+    height: 300px;
+    display: flex;
+}
+
+#segment4 {
+    height: 200px;
+    display: flex;
+}
+
 .main-text, .logo-text {
     color: #F9FAF8;
 }
@@ -44,7 +54,6 @@ button {
 }
 
 #header, #segment1 {
-    display: flex;
     background-color: #1F2937;
     padding-inline: 150px;
     justify-content: space-between;
@@ -52,12 +61,12 @@ button {
 }
 
 #header {
+    display: flex;
     height: 50px;
 }
 
 #segment1 {
     gap: 94px;
-    height: 300px;
 }
 
 .info-header {
@@ -67,10 +76,8 @@ button {
 }
 
 #segment2, #segment3 {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    height: 300px;
 }
 
 .image-links-container {
@@ -89,6 +96,8 @@ button {
 
 .image-description {
     text-align: center;
+    color: #444444;
+    margin-top: 5px;
 }
 
 .left-container {
@@ -113,4 +122,49 @@ button {
 .quote-attribution {
     align-self: flex-end;
     font-weight: 900;
+}
+
+#segment4 {
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    flex: 0 1 850px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding-inline: 20px;
+    gap: 10px;
+}
+
+.cta-header, .cta-text {
+    color: #F9FAF8;
+}
+
+.cta-header {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cta-button {
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 1px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 75px;
+}
+
+.footer-text {
+    color: #E5E7EB;
 }
