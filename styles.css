@@ -60,6 +60,37 @@ button {
     height: 300px;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+#segment2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.image-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.image-link {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882F6;
+    border-radius: 15px;
+}
+
+.image-description {
+    text-align: center;
+}
+
 .left-container {
     display: flex;
     flex-direction: column;
