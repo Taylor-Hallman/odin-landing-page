@@ -30,6 +30,10 @@ button {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+}
+
 #segment1, #segment2, #segment3 {
     height: 300px;
     display: flex;
