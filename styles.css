@@ -116,6 +116,7 @@ button {
     font-style: italic;
     font-size: 36px;
     font-weight: lighter;
+    overflow: hidden;
     color: #1F2937;
 }
 
@@ -144,6 +145,8 @@ button {
 
 .cta-header, .cta-text {
     color: #F9FAF8;
+    overflow: hidden;
+    max-height: 45px;
 }
 
 .cta-header {
