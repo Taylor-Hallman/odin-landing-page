@@ -27,6 +27,7 @@ button {
     border-style: none;
     height: 25px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #segment1, #segment2, #segment3 {
